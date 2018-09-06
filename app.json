@@ -7,14 +7,14 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#e7e6e1",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
-    "color": "#666",
     "selectedColor": "#500",
     "borderStyle": "white",
+    "backgroundColor": "#e7e6e1",
     "list":[
       {
         "pagePath":"pages/index/index",
