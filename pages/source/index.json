@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "RSS Source"
+  "navigationBarTitleText": "RSS Source",
+  "usingComponents": {
+    "slide-view": "miniprogram-slide-view"
+  }
 }
