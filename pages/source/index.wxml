@@ -9,7 +9,7 @@
     <view slot="action" bind:tap="onSearch">搜索</view>
   </van-search>
 </view>
-<view  class='slide'>
+<view class='slide'>
   <van-swipe-cell right-width="{{ 65 }}" left-width="{{ 65 }}">
     <view slot="left">选择</view>
     <van-cell-group>
