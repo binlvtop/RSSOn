@@ -1,1 +1,44 @@
 /* pages/source/index.wxss */
+.slide{
+  /* border-top:1px solid #ccc; */
+  border-bottom:1px solid #DEDEDE;
+}
+.l {
+  background-color: white;
+  height: 110rpx;
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+}
+.r {
+  height: 110rpx;
+  display: flex;
+  direction: row;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 110rpx;
+}
+.read {
+  background-color: #ccc;
+  color: #fff;
+  width: 350rpx;
+}
+.delete {
+  background-color: red;
+  color: #fff;
+  width: 150rpx; 
+}
+.text {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  margin-top: 15rpx;
+  font-size: 33rpx;
+}
+.time {
+  margin-top: 15rpx;
+  color: #ccc;
+  font-size: 25rpx;
+  margin-left: 330rpx;
+}

@@ -1,2 +1,22 @@
 <!--pages/source/index.wxml-->
-<text>pages/source/index.wxml</text>
+<view class="section">
+  <input placeholder="🔍这是一个可以自动聚焦的input" auto-focus bindinput="bindKeyInput"/>
+  <view class="btn-area">
+    <button bindtap="bindButtonTap">搜索</button>
+    <text>{{inputValue}}</text>
+  </view>
+</view>
+<view  class='slide'>
+  <slide-view width="750" height="110" slide-width="500">
+  <view slot="left" class="l">
+    <view class='text'>
+      <view class='title'>文件传输助手</view>
+      <view class='time'>7:00 PM</view>
+    </view>
+  </view>
+  <view slot="right" class="r">
+    <view class='read'>标为已读</view>
+    <view class='delete'>删除</view>
+  </view>
+</slide-view>
+</view>
