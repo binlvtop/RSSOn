@@ -32,8 +32,8 @@
       {
         "pagePath": "pages/mine/index",
         "text": "我的",
-        "iconPath": "asset/icon/mine_48.png",
-        "selectedIconPath": "asset/icon/mine_choose.png"
+        "iconPath": "asset/icon/me.png",
+        "selectedIconPath": "asset/icon/me_choose.png"
       }
     ]
   },
