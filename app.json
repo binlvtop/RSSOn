@@ -12,21 +12,27 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
-    "selectedColor": "#500",
+    "selectedColor": "#500000",
     "borderStyle": "white",
     "backgroundColor": "#e7e6e1",
     "list":[
       {
         "pagePath":"pages/index/index",
-        "text":"首页"
+        "text":"首页",
+        "iconPath": "asset/icon/LC_icon_list_line.png",
+        "selectedIconPath": "asset/icon/LC_icon_list_line_choose.png"
       },
       {
         "pagePath":"pages/source/index",
-        "text":"RSS源"
+        "text":"RSS源",
+        "iconPath": "asset/icon/search.png",
+        "selectedIconPath": "asset/icon/search_choose.png"
       },
       {
         "pagePath": "pages/mine/index",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "asset/icon/mine_48.png",
+        "selectedIconPath": "asset/icon/mine_choose.png"
       }
     ]
   }
