@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/source/index",
     "pages/mine/index",
+    "pages/detail/index",
     "pages/logs/logs"
   ],
   "window":{
