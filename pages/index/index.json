@@ -2,9 +2,7 @@
   "navigationBarTitleText": "RSSOn",
   "enablePullDownRefresh": true,
   "usingComponents": {
-    "van-button": "vant-weapp/button/index",
-    "van-tabbar": "vant-weapp/tabbar/index",
-    "van-tabbar-item": "vant-weapp/tabbar-item/index",
-    "mine": "../../components/mine"
+    "van-cell": "vant-weapp/cell/index",
+    "van-cell-group": "vant-weapp/cell-group/index"
   }
 }
