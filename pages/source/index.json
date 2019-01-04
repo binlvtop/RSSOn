@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "RSS Source",
   "usingComponents": {
-    "slide-view": "miniprogram-slide-view"
+    "van-search": "vant-weapp/search/index",
+    "van-swipe-cell": "vant-weapp/swipe-cell/index"
   }
 }
