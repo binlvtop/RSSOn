@@ -72,4 +72,10 @@ Page({
       inputValue: e.detail.value
     })
   },
+  onClickCell: function (e) {
+    console.log(e);
+    wx.navigateTo({
+      url: '/pages/detail/index?id=1'
+    })
+  }
 })

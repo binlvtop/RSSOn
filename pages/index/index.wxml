@@ -6,10 +6,12 @@
       value="内容"
     />
     <van-cell
-      title="单元格"
-      value="内容"
-      label="描述信息"
+      title="keydown长按时短暂卡顿问题"
+      value="lvbin's Blog"
+      label="当键盘按下某个按键时触发，且默认情况下，长按某按键会重复触发"
       border="{{ false }}"
+      clickable
+      bind:click="onClickCell"
     />
   </van-cell-group>
 </view>

@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  /** 监听事件 */
+  onClickCell: function (e) {
+    console.log(e);
+    wx.navigateTo({
+      url: '/pages/detail/index?id=1'
+    })
   }
 })

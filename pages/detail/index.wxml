@@ -1,2 +1,3 @@
 <!--pages/detail/index.wxml-->
-<text>pages/detail/index.wxml</text>
+<!-- <wxparser rich-text="{{richText}}" /> -->
+<htmltowxml text="{{richText}}" />

@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "文章详情",
+  "usingComponents": {
+    "wxparser": "plugin://wxparserPlugin/wxparser",
+    "htmltowxml": "plugin://htmltowxml/view"
+  }
 }
