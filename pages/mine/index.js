@@ -16,6 +16,9 @@ Page({
     })
   },
   onLoad: function () {
+    wx.navigateTo({
+      url: '../login/index?id=1'
+    })
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

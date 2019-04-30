@@ -1,0 +1,4 @@
+<view class="container">
+  <view class="shadow"></view>
+  <slot></slot>
+</view>
