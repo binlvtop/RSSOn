@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+}
+.shadow {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 1rpx;
+  z-index: 100;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.2);
+  background: #fff;
+}

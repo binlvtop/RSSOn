@@ -1,13 +1,17 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view>
+  <van-cell-group>
+    <van-cell
+      title="单元格"
+      value="内容"
+    />
+    <van-cell
+      title="keydown长按时短暂卡顿问题"
+      value="lvbin's Blog"
+      label="当键盘按下某个按键时触发，且默认情况下，长按某按键会重复触发"
+      border="{{ false }}"
+      clickable
+      bind:click="onClickCell"
+    />
+  </van-cell-group>
 </view>

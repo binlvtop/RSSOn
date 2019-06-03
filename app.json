@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/source/index",
     "pages/mine/index",
-    "pages/logs/logs"
+    "pages/detail/index",
+    "pages/logs/logs",
+    "pages/login/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -31,9 +33,19 @@
       {
         "pagePath": "pages/mine/index",
         "text": "我的",
-        "iconPath": "asset/icon/mine_48.png",
-        "selectedIconPath": "asset/icon/mine_choose.png"
+        "iconPath": "asset/icon/me.png",
+        "selectedIconPath": "asset/icon/me_choose.png"
       }
     ]
+  },
+  "plugins": {
+    "wxparserPlugin": {
+      "version": "0.2.1",
+      "provider": "wx9d4d4ffa781ff3ac"
+    },
+    "htmltowxml": {
+      "version": "1.4.0",
+      "provider": "wxa51b9c855ae38f3c"
+    }
   }
 }

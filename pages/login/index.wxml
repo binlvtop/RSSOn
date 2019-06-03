@@ -1,0 +1,41 @@
+<!--pages/login.wxml-->
+<container>
+    <view class="imgcontainer" />
+      <view class="form">
+        <view class="form-item">
+          <input
+            placeholder-class="phcolor"
+            placeholder="请输入手机号"
+            bindinput="onPhoneNumInput"
+            cursor-spacing="20"
+            maxlength="11"
+            bindconfirm="onGetVerifyCode"
+          />
+        </view>
+        <view class="form-item">
+          <input
+            placeholder-class="phcolor"
+            placeholder="请输入验证码"
+            bindinput="onVerifyCodeInput"
+            cursor-spacing="20"
+            confirm-type="send"
+            maxlength="4"
+            bindconfirm="onLogin"
+            value="{{verify}}"
+          />
+          <view bindtap="onGetVerifyCode" class="code">
+            <view wx:if="{{!canGetCode}}">
+              <span style="color:#D0D0D0">{{prevTime}}</span>
+              <span style="color:#F8875F">{{currentTime}}</span>
+              <span style="color:#D0D0D0">{{tailTime}}</span>
+            </view>
+            <view wx:else>
+              <span>{{timeText}}</span>
+            </view>
+          </view>
+        </view>
+        <view bindtap="onLogin" class="submit {{checkedTrue ? '' : 'submitDisable'}}">
+          登录
+        </view>
+      </view>
+  </container>
